@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,34 +15,35 @@
     <title>Frontend Mentor | Product preview card component</title>
 
     <link rel="stylesheet" href="styles.css" />
-    <style></style>
   </head>
   <body>
-    <section class="card">
-      <picture class="card__container-image"></picture>
-
-      <div class="card__container-details">
-        <h3 class="container-details__title-product">Perfume</h3>
-
-        <div class="container-details__texts">
-          <h1 class="texts__title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="texts__paragraph">
-            A floral, solar and voluptuous interpretation composed by Olivier
-            Polge, Perfumer-Creator for the House of CHANEL.
-          </p>
+    <main>
+      <section class="card">
+        <img class="card__container-image"></img>
+  
+        <div class="card__container-details">
+          <h1 class="container-details__title-product">Perfume</h1>
+  
+          <section class="container-details__texts">
+            <h1 class="texts__title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="texts__paragraph">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </section>
+  
+          <section class="container-details__prices">
+            <span class="prices__new-price">$149.99</span>
+            <span class="prices__old-price">$169.99</span>
+          </section>
+  
+          <button class="card__btn">
+            <img class="btn__image" src="images/icon-cart.svg" alt="Icon Cart" />
+            Add to Cart
+          </button>
         </div>
-
-        <div class="container-details__prices">
-          <span class="prices__new-price">$149.99</span>
-          <span class="prices__old-price">$169.99</span>
-        </div>
-
-        <button class="card__btn">
-          <img class="btn__image" src="images/icon-cart.svg" alt="Icon Cart" />
-          Add to Cart
-        </button>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer class="attribution">
       Challenge by
